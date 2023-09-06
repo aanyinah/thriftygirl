@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+htlm{
+    scroll-behavior: smooth;
+    scroll-padding: 6rem;
+    overflow: hidden;
+    
+}
+
+.navbar
+{
+    display:flex;
+    align-items: center;
+    padding:20px;
+    background-image: url(sa.png);
+} 
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul{
+    display:inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block;
+    margin-right:20px;
+}
+a{
+    text-decoration: none;
+    color:#ffed84;
+    image-resolution: 1080px;
+}
+.icon-container
+{
+     background: #eee;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+     padding-top: 25px;
+     padding-bottom: 25px;
+
+}
+.icon-container .icons
+{
+    background:#fff;
+    border: 5px solid rgba(0, 0, 0, 1);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex: 1 100px;
+}
+.header-center
+{
+    margin-left:200px;
+    width: 40%;
+    text-align:left;
+    line-height: 50px;
+    cursor: pointer;
+    padding-left: 10px;
+    position: relative;
+    
+}
+.header-center-input
+{
+    margin-top: 10px;
+    height: 36px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    cursor: auto;
+    border-radius: 20px;
+   
+}
+.bi-search
+{
+position: absolute;
+left: 94%;
+font-size: 18px;
+top: 32%;
+color:#ff2fa4;
+size: bold;
+}
+.card
+{
+ box-shadow:rgb(177, 174, 174) 0px 0px 5px 1px; 
+ padding: 10px 0px; 
+ margin: 10px 5px;
+ border-radius: 5px;
+}
+.common-heading
+{
+    display: flex;
+    justify-content:space-between ;
+    width:100% ;
+    padding:5px 20px;
+    margin-top: 20px;
+   
+
+}
+.common-heading-left h1
+{
+   font-size:30px ; 
+   font-weight: 500%;
+   padding:auto ;
+   margin:0%;
+   box-shadow:1px 3px 2px 0 rgba(0 0 0 /16%);
+   font-weight: bold;
+   margin-left: 10px;
+   color:burlywood;
+   font-family: 'Great Vibes', cursive
+}
+
+.common-heading-right button
+{
+    width:90px;
+    height:40px;
+    font-size:18px;
+    background-color: burlywood;
+    border: none;
+    color: white;
+    border-radius:10px ;
+    align-items:left ;
+    margin-left: 10px;
+   
+    
+
+}
+.common-col
+{
+    text-align:center ;
+    line-height:22px ;
+}
+.common-col img
+{
+width:120px;
+height:180px ;
+transition: 300ms;
+}
+.common-col img:hover
+{
+    transform: scale(1.5);
+}
+.common-col h3 h4 h6
+{
+    text-transform: capitalize;
+   letter-spacing:1px; 
+}
+.common-col h3
+{
+  margin-top:10px; 
+  font-size:16px; 
+}
+.common-col h4
+{
+    color: green;
+    font-size:14px;
+    font-weight: 300;
+}
+.common-col h6
+{
+    color:gray ;
+    font-size:12px;
+    font-weight: 100;
+}
+.common-row-col-deals
+{
+    display: flex;
+    justify-content:space-evenly ;
+    width:100%;
+    max-height:366px;
+    margin:10px;
+}
